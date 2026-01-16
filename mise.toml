@@ -1,0 +1,6 @@
+[tools]
+rust = { version = "latest", components = "rust-src,clippy,rustfmt,rust-analyzer,rust-std,cargo,rustc" }
+
+[env]
+RUSTUP_HOME = "{{config_root}}/.rustup"
+CARGO_HOME  = "{{config_root}}/.cargo"
